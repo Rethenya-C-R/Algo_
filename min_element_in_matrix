@@ -1,0 +1,7 @@
+m1=[[1,2],[2,3],[3,4]]
+min=m1[0][0]
+for i in range(3):
+    for j in range(2):
+        if m1[i][j]<min:
+            min=m1[i][j]
+print("min element in matrix is:",min)
